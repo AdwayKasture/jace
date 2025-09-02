@@ -1,6 +1,6 @@
 defmodule Jace.Bridge do
   
-   @lib  {:priv, "lib/libopentui.so"}
+   @lib  {:priv, "libopentui.so"}
    @header  {:priv, "include"}
   
    use Zig,otp_app: :jace,
