@@ -19,5 +19,18 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 jace-*.tar
 
+#ignore zig files in code 
+/lib/jace/.Elixir.*.zig
+
+#ignore zig files in priv
+/priv/lib/
+
+#ignore 
+/test/.*.zig
+
+# module zig files
+.Elixir.*.zig
+.erlang*.zig
+
 # Temporary files, for example, from tests.
 /tmp/
