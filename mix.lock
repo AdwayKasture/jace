@@ -1,0 +1,9 @@
+%{
+  "nimble_parsec": {:hex, :nimble_parsec, "1.4.2", "8efba0122db06df95bfaa78f791344a89352ba04baedd3849593bfce4d0dc1c6", [:mix], [], "hexpm", "4b21398942dda052b403bbe1da991ccd03a053668d147d53fb8c4e0efe09c973"},
+  "opentui": {:git, "https://github.com/sst/opentui.git", "c7a340a3cf1017ae25f85709e67cc246a8528dcc", []},
+  "pegasus": {:hex, :pegasus, "0.2.6", "b4af6522326fbb2ffd1bb706e78ec05854fbcb4b03a7fe08f8db2e9de1d0be67", [:mix], [{:nimble_parsec, "~> 1.2", [hex: :nimble_parsec, repo: "hexpm", optional: false]}], "hexpm", "0ac159f0ccab7967cf90208327cc8a35788874814c8d78e19d47104d3fc049b9"},
+  "protoss": {:hex, :protoss, "0.2.1", "fcf437ed65178d6cbf9a600886e3da9f7173697223972f062ee593941c2588b1", [:mix], [], "hexpm", "2261dbdc4d5913ce1e88d1410108d97f21140a118f45f6acc3edc4ecdb952052"},
+  "zig_get": {:hex, :zig_get, "0.14.2", "c111e25509290c6274398159f0c27bb6966bbe3d8be9043dc690ccb772e79e65", [:mix], [], "hexpm", "ee9872289b7296236816bdd6d61e3a7a36b739fd2cbf76c79db2a65c45ddc359"},
+  "zig_parser": {:hex, :zig_parser, "0.6.0", "b1296c64bf5c2592de2eb4bc8bbf79d85b1d6a3ab444c443becd7af579d85681", [:mix], [{:pegasus, "~> 0.2.4", [hex: :pegasus, repo: "hexpm", optional: false]}], "hexpm", "bb7a1523b69f7f8f6b74ba5bf9dabc83f512c0cd67d9eebba1c501a529a2f95e"},
+  "zigler": {:hex, :zigler, "0.14.1", "d664e1890302a5b3d88d60999cfd2c835c43d5869959279a8f52e0284f24f733", [:mix], [{:protoss, "~> 0.2", [hex: :protoss, repo: "hexpm", optional: false]}, {:zig_get, "~> 0.14.2", [hex: :zig_get, repo: "hexpm", optional: false]}, {:zig_parser, "~> 0.5", [hex: :zig_parser, repo: "hexpm", optional: false]}], "hexpm", "6dcf3312fec80b18ae0feef79c56b163398e6dd039197c6b811d9eebdfb086aa"},
+}
